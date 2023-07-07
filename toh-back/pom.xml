@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.0</version>
+		<version>3.1.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>topmodel.jpa.sample</groupId>
@@ -51,7 +51,15 @@
 			<artifactId>infinispan-hibernate-cache-v53</artifactId>
 			<version>13.0.15.Final</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.batch</groupId>
+			<artifactId>spring-batch-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.bytefish</groupId>
+			<artifactId>pgbulkinsert</artifactId>
+			<version>8.1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

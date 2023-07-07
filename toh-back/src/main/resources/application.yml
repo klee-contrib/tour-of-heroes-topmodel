@@ -1,4 +1,7 @@
 spring:
+  batch:
+    jdbc:
+      initialize-schema: always
   sql:
     init:
       platform: postgresql
